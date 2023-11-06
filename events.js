@@ -4,6 +4,7 @@ var texts = [
   "Front-end.",
   "Back-end.",
   "Full-Stack.",
+  "Game-Developer.",
 ];
 
 var textIndex = 0;
@@ -48,5 +49,18 @@ function idioma(){
  }else{
       location.href="../index.html";
  }
+}
+
+//Seletor de portfolio
+function filterPortfolio(category){
+  const elements = document.querySelectorAll(".portfolio-item");
+
+     elements.forEach((element) =>{
+     element.classList.remove("show-port");
+     if(category === "all" || element.classList.contains(category)){
+      element.classList.add("show-port");
+     }
+  });
+
 }
 

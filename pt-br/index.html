@@ -45,7 +45,7 @@
                         <a class="nav-link" href="#contact">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-primary" href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F">ENTRE EM CONTATO</a>
+                        <a class="btn btn-primary" href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F" target="_blank" rel="noopener noreferrer">ENTRE EM CONTATO</a>
                     </li>
                     <li class="nav-item ml-auto">
                         <span class="language" id="en">EN</span>
@@ -77,14 +77,14 @@
 
 
                 <div class="button">
-                    <a href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F"><button class="btn btn-primary">ENTRE EM CONTATO</button></a>
-                    <a href="../assets/cv/Adrian Alexandre CV.pdf"><button class="btn btn-dark" download="Adrian Alexandre Currículo">DOWNLOAD CV</button></a>
+                    <a href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F" target="_blank" rel="noopener noreferrer"><button class="btn btn-primary">ENTRE EM CONTATO</button></a>
+                    <a href="../assets/cv/Adrian Alexandre CV.pdf" target="_blank" rel="noopener noreferrer"><button class="btn btn-dark" download="Adrian Alexandre Currículo">DOWNLOAD CV</button></a>
                 </div>      
 
                 <div class="socials">
-                    <a class="social-item" href="https://www.linkedin.com/in/adrian-alexandre/"><i class="ti-linkedin"></i></a>
-                    <a class="social-item" href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F"><i class="fa fa-whatsapp"></i></a>
-                    <a class="social-item" href="https://github.com/Adrian-Alexandre"><i class="ti-github"></i></a>
+                    <a class="social-item" href="https://www.linkedin.com/in/adrian-alexandre/" target="_blank" rel="noopener noreferrer"><i class="ti-linkedin"></i></a>
+                    <a class="social-item" href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp"></i></a>
+                    <a class="social-item" href="https://github.com/Adrian-Alexandre" target="_blank" rel="noopener noreferrer"><i class="ti-github"></i></a>
                 </div>
             </div>              
             <div class="img-holder">
@@ -106,7 +106,7 @@
                     <p class="subtitle">Dsenvolvedor de Software</p>
                     <p>Eu amo tecnologia e jogos desde pequeno, atuo como técnico de TI há 3 anos, realizando diferentes funções e aumentando meu conhecimento dentro da área. </p>
                     <p>Venho adquirindo conhecimentos em desenvolvimento de software e busco oportunidades para aplicar e aprimorar minhas habilidades. </p>
-                    <a href="assets/cv/Adrian Alexandre CV.pdf"><button class="btn btn-primary" download="Adrian Alexandre Currículo">DOWNLOAD CV</button></a>                     
+                    <a href="../assets/cv/Adrian Alexandre CV.pdf" target="_blank" rel="noopener noreferrer"><button class="btn btn-primary" download="Adrian Alexandre Currículo">DOWNLOAD CV</button></a>                     
                 </div>
             </div>
         </div>
@@ -165,9 +165,15 @@
                 <h6 class="section-title mb-4">Veja alguns dos meus trabalhos</h6>
                 <p class="mb-5 pb-4">Abaixo estão alguns dos projetos em que trabalhei.</p>
 
-                
+                <div class="container text-center port-flters">
+                    <button class="btn btn-primary" onclick="filterPortfolio('all')">Todos</button>
+                    <button class="btn btn-primary" onclick="filterPortfolio('games')">Games</button>
+                    <button class="btn btn-primary" onclick="filterPortfolio('web')">Web</button>
+                </div>
+
+
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 portfolio-item show-port games">
                         <div class="img-wrapper">
                             <img src="../assets/img/folio-1.jpg" alt="PokeCare And Battle">
                             <div class="overlay">
@@ -176,13 +182,14 @@
                                     <a href="../assets/img/folio-1.jpg" data-lightbox="PokeCare" data-title="PokeCare And Battle"><i class="ti-zoom-in"></i></a>
                                     <a hidden href="../assets/img/folio-1-1.jpg" data-lightbox="PokeCare" data-title="PokeCare And Battle"></a>
                                     <a hidden href="../assets/img/folio-1-2.jpg" data-lightbox="PokeCare" data-title="PokeCare And Battle"></a>
-                                    <a href="https://github.com/Adrian-Alexandre/poke-care-and-battle"><i class="ti-link"></i></a>
+                                    <a href="https://adrianalexandre.itch.io/poke-care-and-battle" target="_blank" rel="noopener noreferrer"><i class="ti-link"></i></a>
+                                    <a href="https://github.com/Adrian-Alexandre/poke-care-and-battle" target="_blank" rel="noopener noreferrer"><i class="ti-github"></i></a>
                                 </div>  
                             </div>
                         </div>                                
                     </div>
                                             
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 portfolio-item show-port web">
                         <div class="img-wrapper">
                             <img src="../assets/img/folio-2.jpg" alt="Portfolio">
                             <div class="overlay">
@@ -193,11 +200,43 @@
                                     <a hidden href="../assets/img/folio-2-2.jpg" data-lightbox="portfolio" data-title="Portfolio"></a>
                                     <a hidden href="../assets/img/folio-2-3.jpg" data-lightbox="portfolio" data-title="Portfolio"></a>
                                     <a hidden href="../assets/img/folio-2-4.jpg" data-lightbox="portfolio" data-title="Portfolio"></a>
-                                    <a href="https://adrian-alexandre.github.io/"><i class="ti-link"></i></a>
+                                    <a href="https://adrian-alexandre.github.io/" target="_blank" rel="noopener noreferrer"><i class="ti-link"></i></a>
+                                    <a href="https://github.com/Adrian-Alexandre/Adrian-Alexandre.github.io" target="_blank" rel="noopener noreferrer"><i class="ti-github"></i></a>
                                 </div>                              
                             </div>
                         </div>  
-                        </div>
+                    </div>
+
+                    <div class="col-sm-5 portfolio-item show-port games">
+                        <div class="img-wrapper">
+                            <img src="../assets/img/Asteroids.PNG" alt="Asteroids">
+                            <div class="overlay">
+                                <div class="overlay-infos">
+                                    <h5>Asteroids</h5>
+                                    <a href="../assets/img/Asteroids.PNG" data-lightbox="asteroids" data-title="Asteroids"><i class="ti-zoom-in"></i></a>
+                                    <a hidden href="../assets/img/Asteroids-2.PNG" data-lightbox="asteroids" data-title="Asteroids"></a>
+                                    <a href="https://adrianalexandre.itch.io/asteroids" target="_blank" rel="noopener noreferrer"><i class="ti-link"></i></a>
+                                    <a href="https://github.com/Adrian-Alexandre/asteroid-game" target="_blank" rel="noopener noreferrer"><i class="ti-github"></i></a>
+                                </div>                              
+                            </div>
+                        </div>  
+                    </div>
+
+                    <div class="col-sm-5 portfolio-item show-port games">
+                        <div class="img-wrapper">
+                            <img src="../assets/img/snake-game.PNG" alt="Snake-game">
+                            <div class="overlay">
+                                <div class="overlay-infos">
+                                    <h5>Snake-game</h5>
+                                    <a href="../assets/img/snake-game.PNG" data-lightbox="snake-game" data-title="Snake-game"><i class="ti-zoom-in"></i></a>
+                                    <a hidden href="../assets/img/sanke-game-2.PNG" data-lightbox="snake-game" data-title="Snake-game"></a>
+                                    <a hidden href="../assets/img/sanke-game-3.PNG" data-lightbox="snake-game" data-title="Snake-game"></a>
+                                    <a href="https://adrianalexandre.itch.io/snake-game" target="_blank" rel="noopener noreferrer"><i class="ti-link"></i></a>
+                                    <a href="https://github.com/Adrian-Alexandre/snake-game" target="_blank" rel="noopener noreferrer"><i class="ti-github"></i></a>
+                                </div>                              
+                            </div>
+                        </div>  
+                    </div>
                     
                 </div>
     
@@ -258,13 +297,13 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-sm-6">
-                        <p>Desenvolvido por <a href="https://www.linkedin.com/in/adrian-alexandre" target="_blank">Adrian Alexandre</a></p>
+                        <p>Desenvolvido por <a href="https://www.linkedin.com/in/adrian-alexandre" target="_blank" rel="noopener noreferrer">Adrian Alexandre</a></p>
                     </div>
                     <div class="col-sm-6">
                         <div class="socials">
-                            <a class="social-item" href="https://www.linkedin.com/in/adrian-alexandre/"><i class="ti-linkedin"></i></a>
-                            <a class="social-item" href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F"><i class="fa fa-whatsapp"></i></a>
-                            <a class="social-item" href="https://github.com/Adrian-Alexandre"><i class="ti-github"></i></a>
+                            <a class="social-item" href="https://www.linkedin.com/in/adrian-alexandre/" target="_blank" rel="noopener noreferrer"><i class="ti-linkedin"></i></a>
+                            <a class="social-item" href="https://wa.me/5531971664520?text=Ol%C3%A1%2C+Adrian+tudo+bem%3F" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp"></i></a>
+                            <a class="social-item" href="https://github.com/Adrian-Alexandre" target="_blank" rel="noopener noreferrer"><i class="ti-github"></i></a>
                         </div>
                     </div>
                 </div>

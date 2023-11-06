@@ -725,6 +725,31 @@ img {
 	margin-right: -2rem;
 }
 
+
+
+.port-flters{
+	display: block;
+	justify-content: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.portfolio-item{
+	opacity: 0;
+	width: 0;
+    height: 0;
+	top: 50%;
+    left: 50%;
+	border-radius: 4px;
+    transition: .8s ease-in-out;
+}
+.show-port{
+	opacity: 1;
+	width: 40%;
+    height: 40%;
+	top: 30px;
+    left: 30px;
+}
+
 .btn-primary {
 	color: #fff;
 	background-color: #e20000;
@@ -793,6 +818,7 @@ img {
 			flex-wrap: wrap;
 	margin-right: -15px;
 	margin-left: -15px;
+	justify-content: center;
   }
   
 @media (min-width: 992px) {
