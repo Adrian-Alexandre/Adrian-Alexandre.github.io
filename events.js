@@ -1,10 +1,8 @@
 
 //Typer Animation
 var texts = [
-  "Front-end.",
-  "Back-end.",
-  "Full-Stack.",
-  "Game-Developer.",
+  "Front-end",
+  "Unity",
 ];
 
 var textIndex = 0;
